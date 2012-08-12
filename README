@@ -1,2 +1,24 @@
 BMKG Library
-Library untuk mengakses API BMKG.
+Library untuk mengakses API BMKG (Badan Meteorologi, Klematologi, dan Geofisika Indonesia) di
+http://data.bmkg.go.id.
+
+Kode ini dibuat atas pengalaman saya dalam mempelajari API dari BMKG (http://data.bmkg.go.id)
+karena mereka tidak membuatkan dokumentasinya sama sekali. Sebenarnya API dari BMKG sangat mudah ditebak
+strukturnya, tapi saya tetap kesulitan menemukan cara termudah mengakses informasi yang ada. Akhirnya
+saya membuat kode ini untuk memudahkan mengakses data tersebut.
+
+Kode ini dibuat agar anda dengan mudah mendapatkan data tanpa perlu repot-repot mempelajari API dari
+BMKG. Kode ini menggunakan model OOP (Object Oriented Programming). Strukturnya dibuat agar anda dengan mudah bisa mempelajari kode ini dengan cepat.
+
+Untuk memulai menggunakan kode ini, silahkan tulis
+$bmkg = new B
+
+Contoh:
+Untuk melihat suhu maksimum kota Surabaya
+$bmkg->cuaca('surabaya')->SuhuMax;
+
+Silahkan lihat file contoh.php untuk contoh bagaimana BMKG Library bekerja.
+
+Perhatian: saya tidak menjamin kode ini akan berjalan sempurna. Silahkan gunakan dengan resiko sendiri.
+
+Untuk saran dan komentar maupun pertanyaan, silahkan email project@dimassony.com.
